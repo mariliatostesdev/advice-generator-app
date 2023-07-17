@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.advice-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  width: 500px;
+  border-radius: 5%;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.advice-name-number {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  width: 450px;
+  padding: 20px;
+}
+
+.advice-card img {
+  padding: 20px;
+}
+
+.advice-dice {
+  background-color: hsl(150, 100%, 66%);
+  height: 64px;
+  position: absolute;
+  z-index: 5;
+  top: 320px;
+  border-radius: 50%;
+}
+
+.advice-dice img {
+  color: black;
+}
+
+@media (max-width: 375px) {
+  .advice-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    width: 85%;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  .advice {
+    color: hsl(193, 38%, 86%);
+    font-size: 22px;
+    width: 450px;
+    padding: 20px;
+  }
+
+  .advice-dice {
+    background-color: hsl(150, 100%, 66%);
+    height: 64px;
+    position: absolute;
+    z-index: 5;
+    top: 320px;
+    border-radius: 50%;
+  }
+
+  .advice-dice img {
+    color: black;
+  }
+}
