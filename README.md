@@ -1,7 +1,6 @@
-# Advice Generator App | App Gerador de Conselhos (Estático)
-Um projeto fictício de um aplicativo de geração de conselhos, desenvolvido com HTML e CSS 🚀🤔 (Projeto estático)
+# Advice Generator App | App Gerador de Conselhos
+Um projeto de aplicativo de geração de conselhos, desenvolvido com HTML, CSS e JavaScript e Fetch API 🚀🤔
  <br />
-Desenvolvido como parte do curso de Front-End Engineer da CodeCademy.
 
 ## Visão Geral
 Este projeto simula um aplicativo de geração de conselhos, apresentando um conselho específico acompanhado por um número identificador. O design é atraente e responsivo, adaptando-se a diferentes tamanhos de tela.
@@ -19,18 +18,10 @@ Acesso à página: [Advice Generator App](https://mariliatostesdev.github.io/adv
 ## Tecnologias Utilizadas:
 - HTML
 - CSS
-
-## Estilo
-
-O projeto utiliza a fonte "Manrope" do Google Fonts e um arquivo CSS externo (`style.css`) para estilização. Algumas características de estilo incluem:
-
-- Fundo colorido e atrativo.
-- Cartão de conselho centralizado com design responsivo.
-- Número e conselho destacados com cores específicas.
-- Uso de ícone de dado para adicionar um toque de interatividade.
-- Layout adaptável para diferentes tamanhos de tela, garantindo uma experiência consistente.
+- JavaScript
+- Advice Slip JSON API
 
 ## Contato
 - **Email:** mahtostes.dev@gmail.com
-- **LinkedIn:** [LinkedIn - Marília Ribeiro Tostes](https://www.linkedin.com/in/marilia-ribeiro-tostes/)
+- **LinkedIn:** [LinkedIn - Marília Ribeiro Tostes](https://www.linkedin.com/in/marilia-tostes/)
 - **Whatsapp:** [Fale comigo!](https://wa.me/5567981443147)
